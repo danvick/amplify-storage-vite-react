@@ -9,6 +9,7 @@ frontend:
   phases:
     build:
       commands:
+        - nvm use 22
         - npm run build
   artifacts:
     baseDirectory: dist
